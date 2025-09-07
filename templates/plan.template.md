@@ -1,22 +1,22 @@
-# plan.md
+﻿# plan.md
 ---
 version: 1.0
 updated: <ISO8601-UTC>
 status: active
 ---
 
-## (1) Projektbrief
-- **Projektname:** <Name>
-- **Ziel/Nutzen (kurz & präzise):** <1–2 Sätze>
+## (1) Project brief
+- **Project name:** <name>
+- **Goal/benefit (short & precise):** <1-2 sentences>
 - **Scope (in/out):**
-  - In-Scope: <…>
-  - Out-of-Scope: <…>
-- **Stakeholder/Rollen:** <z. B. Systems Engineering, Architektur, QA>
-- **Randbedingungen (Technologien, Standards, Compliance, Zeit, Budget):** <…>
-- **Annahmen:** <…>
-- **Risiken & Gegenmaßnahmen:** <stichpunktartig>
-- **Offene Fragen:** <…>
+  - In-scope: <...>
+  - Out-of-scope: <...>
+- **Stakeholders/roles:** <e.g., systems engineering, architecture, QA>
+- **Constraints (technologies, standards, compliance, time, budget):** <...>
+- **Assumptions:** <...>
+- **Risks & mitigations:** <bullet points>
+- **Open questions:** <...>
 
-## (2) Detaillierter Plan (Checkliste)
-- [ ] **P-<NNN>** <Titel> — <Kurzbeschreibung> — **Akzeptanzkriterien:** <…> — **Referenzen:** [Architektur:<id>, Anforderungen:<id>]
-- [ ] **P-<NNN>** <…>
+## (2) Detailed plan (checklist)
+- [ ] **P-<NNN>** <title> - <short description> - **Acceptance criteria:** <...> - **References:** [architecture:<id>, requirements:<id>]
+- [ ] **P-<NNN>** <...>

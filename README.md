@@ -1,40 +1,40 @@
-# README.md
+﻿# README.md
 ---
 version: 1.0
 updated: 2025-09-07T00:20:00Z
 ---
 
-## Zweck
-Dieses Paket enthält alle notwendigen Vorlagen und die `agents.md`-Definitionen für einen TDD-zentrierten, modell- und dokumentationsgestützten Entwicklungs-Workflow.
+## Purpose
+This package contains all necessary templates and the `agents.md` definitions for a TDD-centered, model- and documentation-driven development workflow.
 
-## Inhalt
-- **agents.md** → Rollen, Leitplanken und Governance
-- **WORKFLOW.md** → Schritt-für-Schritt-Anleitung
+## Contents
+- **agents.md** -> roles, guardrails, and governance
+- **workflow.md** -> step-by-step guide
 - **templates/**
-  - **plan.template.md** → Vorlage für `plan.md`
-  - **architektur.template.md** → Vorlage für `architektur.md`
-  - **current-task.template.md** → Vorlage für `current-task.md`
-  - **backlog.template.md** → Vorlage für `backlog.md`
+  - **plan.template.md** -> template for `plan.md`
+  - **architecture.template.md** -> template for `architecture.md`
+  - **current-task.template.md** -> template for `current-task.md`
+  - **backlog.template.md** -> template for `backlog.md`
 
-## Verwendung
-1. **Initialisieren**
-   - Instanziiere `plan.template.md` als `plan.md` → Projektbrief & P-Items füllen.
-   - `agents.md` lesen, um Rollen & Leitplanken zu verstehen.
+## Usage
+1. **Initialize**
+   - Instantiate `plan.template.md` as `plan.md` -> fill project brief and P-items.
+   - Read `agents.md` to understand roles and guardrails.
 
-2. **Arbeiten mit Tasks**
-   - Für jedes Arbeitspaket ein `current-task.md` aus dem Template erstellen.
-   - TDD: Tests zuerst definieren, dann Umsetzung.
+2. **Working with tasks**
+   - For each work package, create a `current-task.md` from the template.
+   - TDD: define tests first, then implement.
 
-3. **Architektur & Doku**
-   - Änderungen an `architektur.md` nur nach DoD-konformen Abschlüssen.
-   - Rückverfolgbarkeit über IDs sicherstellen (P, CT, T, BL).
+3. **Architecture & docs**
+   - Changes to `architecture.md` only after DoD-compliant completions.
+   - Ensure traceability via IDs (P, CT, T, BL).
 
-4. **Backlog & Abschluss**
-   - Offene Punkte in `backlog.md` übertragen.
-   - Abgeschlossene `current-task.md`-Dateien archivieren.
+4. **Backlog & closure**
+   - Transfer open items to `backlog.md`.
+   - Archive completed `current-task.md` files.
 
-## Konventionen
-- **Dateinamen:** lowercase, UTF-8, LF
+## Conventions
+- **Filenames:** lowercase, UTF-8, LF
 - **IDs:** `P-###`, `CT-###`, `T-###-m`, `BL-###`
-- **Zeitstempel:** ISO-8601 (UTC)
-- **Commits:** Referenzen zu relevanten IDs
+- **Timestamps:** ISO-8601 (UTC)
+- **Commits:** references to relevant IDs
