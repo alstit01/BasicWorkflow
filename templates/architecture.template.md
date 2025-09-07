@@ -14,6 +14,6 @@ status: target
 - **Component:** <name>
   - **Responsibility:** <...>
   - **Public interfaces (signatures/contracts/protocols):** <...>
-  - **Key data structures/schemas (fields & invariants):** <...>
+  - **Key data structures/schemas (fields & invariants & types):** <...>
   - **Dependencies:** <...>
   - **Errors/edge cases:** <...>
