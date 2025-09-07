@@ -13,6 +13,7 @@ owner: <User/Team>
 - **QA**: designs/automates tests/checks (software, models, docs).
 
 ## Guardrails
+- **Hard gate**: No changes without an active current-task.md (status: active).
 - **TDD-first**, small increments, clear acceptance criteria per task.
 - **Traceability**: IDs (P-<NNN>, CT-<NNN>, T-<NNN>-<m>, BL-<NNN>) in files and commits.
 - **Workflow**: changes only via `current-task.md`; architecture only after a DoD-complete iteration.
